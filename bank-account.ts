@@ -16,7 +16,6 @@ class Account {
         }
     }
 
-    // Create withdrawal and checkBalance methods here.
     withdrawal(subtractAmount: number): void {
         if (subtractAmount <= 0) {
             console.log('Amount must be greater than 0');
@@ -28,7 +27,6 @@ class Account {
         }
     }
 
-    // Make sure you perform the necessary validations.
     checkBalance(){
         return this.accountBalance;
     }
